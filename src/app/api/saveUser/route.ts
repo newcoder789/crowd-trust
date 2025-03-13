@@ -79,9 +79,6 @@
 // //     }
 // // }
 
-// // // Example call (Replace with actual API request handler)
-// // // const testAddress = "0x7dB6DC9205d3bF205B7664Be75aE203af5d2Adc0";
-// // // saveUser(testAddress);
 // import dbConnect from "@/lib/dbConnect";
 // import UserModel from "@/models/User.model";
 // import CampaignModel from "@/models/All.model";
