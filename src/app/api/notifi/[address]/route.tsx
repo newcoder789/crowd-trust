@@ -6,8 +6,8 @@ export async function GET(req: NextRequest): Promise<NextResponse> {
     const notifications = [
       {
         id: "1",
-        message: "New proposal created in campaign 0x462D6e94F2EA99d4C13E3eEA30EC5A1A4e12505C.",
-        link: "/campaigns/0x462D6e94F2EA99d4C13E3eEA30EC5A1A4e12505C/proposal",
+        message: "New proposal created in campaign process.env.CONTRACT_ADRESS.",
+        link: `/campaigns/${process.env.CONTRACT_ADRESS}/proposal`,
         read: false,
       },
     ];
